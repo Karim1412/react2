@@ -1,0 +1,31 @@
+export const T = {
+  bg:          '#0a0a0f',
+  surface:     '#111118',
+  surfaceAlt:  '#16161f',
+  border:      '#1e1e2e',
+  borderHover: '#2e2e45',
+  accent:      '#f59e0b',
+  accentDim:   '#92400e',
+  accentGlow:  'rgba(245,158,11,0.15)',
+  text:        '#e8e8f0',
+  textMuted:   '#6b6b85',
+  textDim:     '#3d3d55',
+  green:       '#10b981',
+  red:         '#ef4444',
+  blue:        '#3b82f6',
+  purple:      '#8b5cf6',
+  pink:        '#ec4899',
+} as const
+
+export const PLATFORM_COLORS: Record<string, string> = {
+  Instagram: T.pink,
+  TikTok:    '#69C9D0',
+  YouTube:   T.red,
+  Facebook:  '#1877F2',
+  Twitter:   '#1DA1F2',
+  instagram: T.pink,
+  tiktok:    '#69C9D0',
+  youtube:   T.red,
+  facebook:  '#1877F2',
+  twitter:   '#1DA1F2',
+}
